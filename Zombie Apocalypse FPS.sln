@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Apocalypse FPS.Plugins", "Zombie Apocalypse FPS.Plugins.csproj", "{396A0FD4-C025-C225-1769-F7ADB3EFC292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Apocalypse FPS", "Zombie Apocalypse FPS.csproj", "{06ABDE5D-57EB-7027-1CE2-CBAB4A3939BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Apocalypse FPS.Editor.Plugins", "Zombie Apocalypse FPS.Editor.Plugins.csproj", "{C07D2E62-4166-49B9-5268-D57CA8905584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zombie Apocalypse FPS.Editor", "Zombie Apocalypse FPS.Editor.csproj", "{9726F03E-6C34-C080-04E8-2EED425A63CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{396A0FD4-C025-C225-1769-F7ADB3EFC292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396A0FD4-C025-C225-1769-F7ADB3EFC292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396A0FD4-C025-C225-1769-F7ADB3EFC292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396A0FD4-C025-C225-1769-F7ADB3EFC292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06ABDE5D-57EB-7027-1CE2-CBAB4A3939BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06ABDE5D-57EB-7027-1CE2-CBAB4A3939BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06ABDE5D-57EB-7027-1CE2-CBAB4A3939BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06ABDE5D-57EB-7027-1CE2-CBAB4A3939BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07D2E62-4166-49B9-5268-D57CA8905584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07D2E62-4166-49B9-5268-D57CA8905584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07D2E62-4166-49B9-5268-D57CA8905584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07D2E62-4166-49B9-5268-D57CA8905584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9726F03E-6C34-C080-04E8-2EED425A63CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9726F03E-6C34-C080-04E8-2EED425A63CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9726F03E-6C34-C080-04E8-2EED425A63CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9726F03E-6C34-C080-04E8-2EED425A63CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
