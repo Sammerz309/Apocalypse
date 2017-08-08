@@ -11,6 +11,8 @@ public class NavAgentExample : MonoBehaviour
     public int CurrentWaypointIndex = 0;
     public bool HasPath = false;
     public bool PathPending = false;
+    public bool PathStale = false;
+    public NavMeshPathStatus PathStatus = NavMeshPathStatus.PathInvalid;
 
     // Private Members
     private NavMeshAgent _navAgent = null;
@@ -31,8 +33,13 @@ public class NavAgentExample : MonoBehaviour
     {
         HasPath = _navAgent.hasPath;
         PathPending = _navAgent.pathPending;
+        PathStale = _navAgent.isPathStale;
+        PathStatus = _navAgent.pathStatus;
+        float stopDistance = _navAgent.stoppingDistance;
+        bool destinationReached = _navAgent.remainingDistance <= stopDistance; // Distance to destination is zero. Needs new path
 
-		if (!HasPath && !PathPending)
+
+        if ((destinationReached && !PathPending) || (PathStatus == NavMeshPathStatus.PathInvalid))
         {
             SetNextDestination(true);
         }
